@@ -516,3 +516,9 @@ function foo() {
     // UNREACHABLE_CODE alarm
     var bar = 1;
 }
+
+
+function foo() {
+    const t = 123;
+    t.z = 4;
+}
