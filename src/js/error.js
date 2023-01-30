@@ -516,3 +516,8 @@ function foo() {
     // UNREACHABLE_CODE alarm
     var bar = 1;
 }
+
+let rounded = Math.round(x);
+if (rounded < 4.2) { // BAD_COMPARISON_WITH_FLOAT alarm because the comparison is imprecise.
+    console.log(rounded);
+}
