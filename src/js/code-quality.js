@@ -194,20 +194,6 @@ function foo(url) {
     target = url.replace(/\.|\?|\&|\/|\=|\:|\-|\s/gi, "");
 }
 
-import React from 'react';
-import PropTypes from 'prop-types';
-
-class Hello extends React.Component {
-    render() {
-        return <div>Hello, {this.props.name}</div>;
-    }
-}
-
-Hello.propTypes = {
-    name: PropTypes.string,
-    age: PropTypes.number // USELESS_PROP_TYPES alarm because this property 'age' is not used.
-};
-
 class Test {
     data = 'data';
     foo() {
