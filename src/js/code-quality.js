@@ -193,13 +193,3 @@ function foo(url) {
     var target = url + "user" + user; // UNUSED_VAR_ASSIGN alarm
     target = url.replace(/\.|\?|\&|\/|\=|\:|\-|\s/gi, "");
 }
-
-class Test {
-    data = 'data';
-    foo() {
-        console.log(this.data);
-    }
-    bar() {
-        this.foo.call(this); // USELESS_CALL alarm
-    }
-}
