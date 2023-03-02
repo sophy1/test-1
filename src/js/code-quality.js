@@ -207,3 +207,13 @@ Hello.propTypes = {
     name: PropTypes.string,
     age: PropTypes.number // USELESS_PROP_TYPES alarm because this property 'age' is not used.
 };
+
+class Test {
+    data = 'data';
+    foo() {
+        console.log(this.data);
+    }
+    bar() {
+        this.foo.call(this); // USELESS_CALL alarm
+    }
+}
