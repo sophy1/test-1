@@ -1,4 +1,5 @@
 {
-  "plugins": ["html", "not-support"],
+  "env": { "browser": true, "es6": true },
+  "plugins": [ "eslint-plugin-not-supported"],
   "extends": [ "eslint:recommended", "plugin:json/recommended"],
 }
