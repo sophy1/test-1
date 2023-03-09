@@ -1,5 +1,5 @@
 {
-  "plugins": ["html"],
+  "plugins": ["html", "not-support"],
   "extends": [ "eslint:recommended", "plugin:jsn/recommended"],
   "rules": {
   },
