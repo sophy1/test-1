@@ -3,6 +3,5 @@
   "plugins": [ "html", "eslint-plugin-not-supported"],
   "extends": [ "eslint:recommended", "plugin:json/recommended"],
   "rules": {
-    "mocha/no-exclusive-tests": "error"
    }
 }
