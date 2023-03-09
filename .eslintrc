@@ -1,6 +1,6 @@
 {
   "plugins": ["html"],
-  "extends": [ "eslint:recommended"],
+  "extends": [ "eslint:recommended", "plugin:jsn/recommended"],
   "rules": {
   },
   "settings": {
