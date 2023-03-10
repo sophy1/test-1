@@ -1,7 +1,7 @@
 {
   "env": { "browser": true, "es6": true },
   "plugins": [ "html"],
-  "extends": [ "eslint:recommended", "plugin:json/recommended", 'airbnb-typescript'],
+  "extends": [ "eslint:recommended", "plugin:json/recommended"],
   "rules": {
     "mocha/no-exclusive-tests": "error"
    }
