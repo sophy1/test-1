@@ -3,6 +3,6 @@
   "plugins": [ "html"],
   "extends": [ "eslint:recommended", "plugin:json/recommended"],
   "rules": {
-    "mocha/no-exclusive-tests": "error"
+   
    }
 }
